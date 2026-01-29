@@ -17,7 +17,5 @@ renamed as (
 
 )
 
-select * from renamed_name,
-        last_name
+select * from renamed
 
-    from {{ source('jaffle_shop', 'customers') }}
